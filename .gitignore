@@ -1,0 +1,22 @@
+*.iml
+*.log
+sh.exe.stackdump
+dataset.zip
+
+.gradle/
+.idea/
+build/
+out/
+logs/
+node_modules/
+system-tests/results/
+system-tests/cypress/screenshots/
+ffbuild
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# vscode
+.project
+.classpath
+.settings/

@@ -1,0 +1,18 @@
+logging:
+  level:
+    root: DEBUG
+server:
+  port: 9016
+monitoring:
+  http:
+    endpoints:
+      - name: "commerce-fraud-orderevaluation"
+        url: "http://localhost:9011/monitoring/ping"
+        critical: "true"
+order-evaluation:
+  url: "http://localhost:9011"
+
+spring:
+  jackson:
+    mapper:
+      accept_case_insensitive_properties: true

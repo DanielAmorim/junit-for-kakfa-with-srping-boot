@@ -1,0 +1,9 @@
+<configuration>
+
+    <property scope="context" name="logFilePath" value="logs" />
+    <property scope="context" name="logFileName" value="fraudapi" />
+    <property scope="context" name="logLevel" value="INFO" />
+
+    <include resource="com/farfetch/framework/logging/ff-logstash-appender.xml"/>
+    <include resource="com/farfetch/framework/logging/ff-logback-defaults.xml"/>
+</configuration>

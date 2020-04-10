@@ -1,0 +1,21 @@
+build:
+  maxIssues: 0
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreEnums: true
+naming:
+  MatchingDeclarationName:
+    active: false
+performance:
+  SpreadOperator:
+    active: false
+exceptions:
+  TooGenericExceptionCaught:
+    exceptionNames:
+      - Throwable
+      - NullPointerException #no sense in kotlin
+complexity:
+  TooManyFunctions:
+    ignorePrivate: true
+    ignoreDeprecated: true
